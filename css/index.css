@@ -1,0 +1,46 @@
+.jt-hover {
+  border: 1px solid #67C23A;
+  box-shadow: 1px 1px 10px #909399;
+  position: relative;
+  overflow: auto;
+}
+.jt-del-element {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.jt-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  line-height: 1;
+  height: 40px;
+  font-size: 15px;
+  padding: 0 14px;
+  border: 1px solid #DCDFE6;
+  border-radius: 5px;
+}
+.jt-button_primary {
+  background: #409EFF;
+}
+.jt-button_warning {
+  background: #E6A23C;
+}
+
+.jt-iframe-normal {
+  position: fixed;
+  right: 50px;
+  top: 100px;
+  background: #fff;
+  border: 2px solid #409EFF;
+  z-index: 9999;
+  border-radius: 10px;
+  box-shadow: 2px 2px #ccc;
+}
+.jt-popup-footer {
+  background: #fff;
+  padding-top: 20px;
+  text-align: center
+}
