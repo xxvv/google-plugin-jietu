@@ -10,8 +10,8 @@ $(function () {
     // 全屏模式
     
     sendMsg({type: 'jietu' }, function (res) {
-      // window.close()
-      console.log(res)
+      window.close()
+      // console.log(res)
     })
   })
 })
